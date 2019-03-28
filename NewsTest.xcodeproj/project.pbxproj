@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		201906041A13E35450A219BC /* Pods_NewsTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7AAA136C936B9CC84817E1 /* Pods_NewsTest.framework */; };
+		5F1E787D224C8306005E0A46 /* ooop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F1E787C224C8306005E0A46 /* ooop.jpg */; };
 		5F4CDFA3223F85BB005EF871 /* DetailNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4CDFA2223F85BB005EF871 /* DetailNewsViewController.swift */; };
 		5F7956232240045300FF8EA7 /* ImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7956222240045300FF8EA7 /* ImageViewExtension.swift */; };
 		5F79562522403B1E00FF8EA7 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F79562422403B1E00FF8EA7 /* StringExtension.swift */; };
-		5F7956272240696500FF8EA7 /* ooop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F7956262240696500FF8EA7 /* ooop.jpg */; };
 		5F96A7CC223E2B9C00C8EAB7 /* NewsDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F96A7CB223E2B9C00C8EAB7 /* NewsDB.swift */; };
 		5F96A7D2223E6B4E00C8EAB7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F96A7D1223E6B4E00C8EAB7 /* Constants.swift */; };
 		5F9E14FF223D1496006007AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9E14FE223D1496006007AB /* AppDelegate.swift */; };
@@ -50,10 +50,10 @@
 		396D858CF30226C00EE942BF /* Pods-NewsTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsTestTests.release.xcconfig"; path = "Target Support Files/Pods-NewsTestTests/Pods-NewsTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		3D7AAA136C936B9CC84817E1 /* Pods_NewsTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewsTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51E77F01DA8819E6DFDF6AB0 /* Pods-NewsTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsTest.debug.xcconfig"; path = "Target Support Files/Pods-NewsTest/Pods-NewsTest.debug.xcconfig"; sourceTree = "<group>"; };
+		5F1E787C224C8306005E0A46 /* ooop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ooop.jpg; sourceTree = SOURCE_ROOT; };
 		5F4CDFA2223F85BB005EF871 /* DetailNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailNewsViewController.swift; sourceTree = "<group>"; };
 		5F7956222240045300FF8EA7 /* ImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewExtension.swift; sourceTree = "<group>"; };
 		5F79562422403B1E00FF8EA7 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
-		5F7956262240696500FF8EA7 /* ooop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ooop.jpg; path = ../../../ooop.jpg; sourceTree = "<group>"; };
 		5F96A7CB223E2B9C00C8EAB7 /* NewsDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDB.swift; sourceTree = "<group>"; };
 		5F96A7D1223E6B4E00C8EAB7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		5F9E14FB223D1496006007AB /* NewsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -178,7 +178,7 @@
 				5F9E1505223D1497006007AB /* Assets.xcassets */,
 				5F9E1507223D1497006007AB /* LaunchScreen.storyboard */,
 				5F9E150A223D1497006007AB /* Info.plist */,
-				5F7956262240696500FF8EA7 /* ooop.jpg */,
+				5F1E787C224C8306005E0A46 /* ooop.jpg */,
 				5F9E1530223D1B75006007AB /* UI */,
 			);
 			path = NewsTest;
@@ -331,9 +331,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F9E1509223D1497006007AB /* LaunchScreen.storyboard in Resources */,
+				5F1E787D224C8306005E0A46 /* ooop.jpg in Resources */,
 				5F9E1506223D1497006007AB /* Assets.xcassets in Resources */,
 				5F9E152F223D1B70006007AB /* NewsTableViewCell.xib in Resources */,
-				5F7956272240696500FF8EA7 /* ooop.jpg in Resources */,
 				5F9E1504223D1496006007AB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
